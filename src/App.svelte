@@ -116,7 +116,7 @@
       }
     }
     &.saving{
-      animation: SavingAnimation 1s ease infinite;
+      animation: SavingAnimation 1s ease;
       background: linear-gradient(90deg, #71c356, #4a730c);
       background-size: 400% 400%;
        > .autosaving-message {
@@ -196,7 +196,7 @@
       background-position:100% 50%
   }
     100%{
-      opacity: 0;
+      opacity: 1;
       ransform: translateX(400px);
       background-position:0% 50%
     }
