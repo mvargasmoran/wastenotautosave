@@ -89,12 +89,12 @@
 </main>
 
 <style lang="scss">
-    main {
+  main {
     padding: 1em;
-    border: 1px solid hotpink;
     margin: 0 auto;
     display: block;
     width: 70%;
+
   }
   .autosaving-alert{
     font-size: 11px;
@@ -132,8 +132,9 @@
     row-gap: 10px;
     column-gap: 10px;
     > div {
-      outline: 1px solid green;
-      background: rgba(10,10, 240,.1);
+      outline: 1px solid #444;
+      color: white;
+      background: rgba(200,200, 200,.2);
     }
 	}
   .page-title{
@@ -160,6 +161,9 @@
   .input-container{
     grid-column: 2 / 4;
     grid-row: 3 / 5;
+    > input {
+      margin-top:1em;
+    }
   }
 	h1 {
 		color: #ff3e00;
